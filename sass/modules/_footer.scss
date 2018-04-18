@@ -1,0 +1,94 @@
+// author:renwoxing,peijianxing  data:5.26.2016
+// fColor       title color
+// aColor       link color
+// orgColor     hot color
+// borderColor  border color
+// rightColor   rights color
+@mixin footer($fColor: #c4b9ab, $aColor: #c4b9ab, $orgColor:#c38f43, $borderColor:#960, $rightsColor:#978c85) {
+    width: 1000px;
+    margin: 0px auto;
+    font-size:12px;
+    line-height: 1.7;
+    @include clearfix();
+    a {
+        text-decoration: none;
+        padding-right: 12px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .zhonggao {
+        padding: 10px 0px 10px 0px;
+        border-bottom: 1px solid $borderColor;
+        text-align: center;
+    }
+    .zhonggao .zg_zi {
+        font-style: normal;
+    }
+    .zhonggao span {
+        padding-right: 25px;
+    }
+    .zhonggao span.zg_lt {
+        padding-right: 0px;
+    }
+    .zhonggao,
+    .zhonggao a {
+        color: $fColor;
+    }
+    .FootBox {
+        width: 910px;
+        margin: 0px auto;
+        padding: 5px 0px 24px 0px;
+        @include clearfix();
+    }
+    .ft_qu_a {
+        float: left;
+        width: 310px;
+    }
+    .ft_qu_b {
+        float: left;
+        width: 600px;
+    }
+    .dilogo,
+    .dilogo img {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ft_qu_a .logo_01 {
+        padding-top: 24px;
+        margin-left: 5px;
+    }
+    .ft_qu_a .logo_02 {
+        padding-top: 0px;
+    }
+    .ft_about {
+        padding: 15px 0px 0px 0px;
+    }
+    .ft_about,
+    .ft_recommend {
+        font-size: 13px;
+    }
+    .ft_about,
+    .ft_about a {
+        color: $orgColor;
+    }
+    .ft_recommend {
+        padding: 5px 0px 5px 0px;
+    }
+    .ft_recommend,
+    .ft_recommend a {
+        color: $aColor;
+    }
+    .ft_beian a {
+        white-space: nowrap;
+        color:$rightsColor;
+    }
+    .ft_beian span {
+        padding-right: 12px;
+        white-space: nowrap;
+        color:$rightsColor;
+    }
+    .ft_copyright {
+        color:$rightsColor;
+    }
+}

@@ -1,0 +1,1220 @@
+html {
+    font-size: 50px;
+}
+
+@media screen and (min-width:320px) {
+    html {
+        font-size: 42.66px;
+    }
+}
+
+@media screen and (min-width:360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width:375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:414px) {
+    html {
+        font-size: 55.20px;
+    }
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+input,
+textarea,
+article,
+aside,
+audio,
+canvas,
+command,
+datalist,
+details,
+dialog,
+embed,
+figure,
+header,
+hgroup,
+keygen,
+mark,
+meter,
+nav,
+output,
+progress,
+rp,
+rt,
+ruby,
+section,
+source,
+time,
+video {
+    border: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+    *hide-focus: n:none;
+}
+
+body,
+html {
+    height: 100%;
+    position: relative;
+    background: #121212;
+    font-size: 0.30rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+input[type="text"],
+input[type="password"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 399;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../images/loading.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+#container {
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pageOne,
+.page2,
+.page3,
+.page4 {
+    max-width: 7.5rem;
+    margin: 0 auto;
+    position: relative;
+    height: 14.18rem;
+}
+
+.pageOne {
+    height: 13.1rem;
+}
+
+.page5 {
+    max-width: 7.5rem;
+    margin: 0 auto;
+    position: relative;
+    height: 8.82rem;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.page5 p {
+    margin-bottom: 0.6rem;
+    font-size: 18px;
+    margin-top: 0.8rem;
+}
+
+.mask {
+    display: none;
+}
+
+.lineBox {
+    width: 0.48rem;
+    height: 7.23rem;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    margin-top: 0.6rem;
+}
+
+.line0 {
+    background: url(../images/line0.png);
+    background-size: cover;
+}
+
+.line1 {
+    background: url(../images/line1.png);
+    background-size: cover;
+}
+
+.line2 {
+    background: url(../images/line2.png);
+    background-size: cover;
+}
+
+.line3 {
+    background: url(../images/line3.png);
+    background-size: cover;
+}
+
+.line4 {
+    background: url(../images/line4.png);
+    background-size: cover;
+}
+
+.line5 {
+    background: url(../images/line5.png);
+    background-size: cover;
+}
+
+.line6 {
+    background: url(../images/line6.png);
+    background-size: cover;
+}
+
+.line7 {
+    background: url(../images/line7.png);
+    background-size: cover;
+}
+
+.backtop {
+    background: url(../images/back.png) no-repeat;
+    background-size: cover;
+    width: 2.19rem;
+    height: 1.09rem;
+    position: absolute;
+    bottom: 1.56rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+@media screen and (orientation:landscape) {
+    .mask {
+        width: 100%;
+        height: 100%;
+        background: rgba(18, 18, 18, 0.7);
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+.container {}
+
+.headerBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: url(../images/headerBg.png) no-repeat;
+    height: 1.26rem;
+    background-size: 100% 100%;
+    padding: 0.16rem 0.26rem 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.headerLeft {
+    overflow: hidden;
+    float: left;
+}
+
+.logo {
+    padding-right: 0.2rem;
+    float: left;
+}
+
+.logo a,
+.logo a img {
+    display: block;
+    width: 1.22rem;
+    height: 1.22rem;
+}
+
+.headerLeft h2 {
+    float: left;
+}
+
+.headerLeft h2 img {
+    display: block;
+    width: 1.77rem;
+    padding-top: 0.17rem;
+}
+
+.btn-xz {
+    width: 2.55rem;
+    height: 0.96rem;
+    display: block;
+    float: right;
+    background: url(../images/btnDownload.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: -0.08rem;
+}
+
+.hb {
+    width: 0.96rem;
+    height: 0.97rem;
+    position: absolute;
+}
+
+.b1 {
+    background: url(../images/b1.png) no-repeat;
+    background-size: cover;
+    left: 0.4rem;
+    top: 1.8rem;
+}
+
+.b2 {
+    background: url(../images/b2.png) no-repeat;
+    background-size: cover;
+    right: 0.4rem;
+    top: 1.8rem;
+}
+
+.b3 {
+    background: url(../images/b3.png) no-repeat;
+    background-size: cover;
+    right: 0.4rem;
+    top: 3rem;
+}
+
+.btn-app {
+    width: 2.06rem;
+    height: 0.6rem;
+    display: block;
+    float: right;
+    background: url(../images/btn_app.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.pageOne {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.page2 {
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.page3 {
+    background: url(../images/bg3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.page4 {
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.page5 {
+    background: url(../images/bg4.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.pageOne .contBot {
+    background: url(../images/pageOneBot.png) no-repeat;
+    width: 100%;
+    min-height: 11.23rem;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.NewFootGroup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 0.46rem;
+}
+
+
+.btn-video i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/videoIcon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.btn-ljxz {
+    width: 4rem;
+    height: 1.2rem;
+    display: block;
+    background: url(../images/opacity.png) repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 1.45rem;
+    margin-left: -2rem;
+    text-indent: -999em;
+}
+
+
+.my_video_1 {
+    display: block;
+}
+
+.popTwo .overlayCon {
+    background: url(../images/popBg2.jpg) no-repeat;
+    width: 5.34rem;
+    height: 3.38rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+    background-size: 100% 100%;
+}
+
+.overlay a.close,
+.videoClose {
+    width: 0.27rem;
+    height: 0.27rem;
+    position: absolute;
+    z-index: 105;
+    right: 0.23rem;
+    top: 0.28rem;
+    background: url(../images/close.png);
+    background-size: 100% 100%;
+    display: block;
+    text-indent: -9999em;
+}
+
+.videoClose {
+    right: 0.05rem;
+    top: -0.32rem;
+}
+
+.red {
+    color: #f63f3a;
+}
+
+.pre-title {
+    padding: 0.2rem 0;
+    font-size: 0.32rem;
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #F63F3A;
+}
+
+.popContent {
+    font-size: 0.24rem;
+    height: 3.6rem;
+    overflow-y: scroll;
+    padding: 0 0.3rem 0 0.3rem;
+    line-height: 0.4rem;
+}
+
+.scrollBox::-webkit-scrollbar {
+    width: 0.04rem;
+}
+
+.scrollBox::-webkit-scrollbar-track {
+    background-color: #E7D7BC;
+    margin: 0.05rem 0.1rem 0.05rem 0;
+    border-radius: 3px;
+}
+
+.scrollBox::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #EF3C3D;
+}
+
+.popContent p {
+    padding-bottom: 0.2rem;
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.77);
+    visibility: hidden;
+}
+
+.din~.bg {
+    visibility: visible;
+}
+
+.rule {
+    background: url(../images/rule.jpg);
+    width: 6.52rem;
+    height: 7.3rem;
+    background-size: cover;
+}
+
+.error {
+    background: url(../images/error.jpg?1);
+    width: 6.52rem;
+    height: 4.4rem;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.error p {
+        top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.qd {
+    background: url(../images/qd.jpg);
+    width: 6.52rem;
+    height: 4.4rem;
+    background-size: cover;
+}
+
+.zhaoji {
+    background: url(../images/zhaoji.jpg);
+    width: 6.52rem;
+    height: 4.4rem;
+    background-size: cover;
+}
+
+.lb {
+    background: url(../images/lb.jpg);
+    width: 6.52rem;
+    height: 7.3rem;
+    background-size: cover;
+    font-size: 12px;
+}
+
+.lb .item {
+    border-bottom: 1px solid #5c6e8c;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
+    position: relative;
+}
+
+.lb .rect {
+    width: 0.04rem;
+    height: 0.57rem;
+    background: #e4c68d;
+    float: left;
+    margin-right: 0.16rem;
+    margin-top: 0.08rem;
+}
+
+.code {
+    font-size: 12px;
+}
+
+.copy {
+    background: url(../images/copy.jpg);
+
+    width: 1.0rem;
+    height: 0.4rem;
+    background-size: cover;
+    position: absolute;
+    right: 0rem;
+    top: 0.16rem;
+}
+
+.lb .scroll {
+    height: 4.6rem;
+    overflow: auto;
+    margin: 1.3rem 0.6rem 1rem;
+}
+
+.share {
+    background: url(../images/share.png);
+    width: 4.99rem;
+    height: 4.42rem;
+    background-size: cover;
+    margin-top: -3rem;
+}
+
+.dialog {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    display: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dialog2 {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    visibility: hidden;
+    color: #fff;
+    font-size: 16px;
+}
+
+.dialog.din {
+    display: block;
+}
+
+.dialog2.din {
+    visibility: visible;
+}
+
+.yellow {
+    color: #e4c68d;
+}
+
+.qdname {
+    margin: 1rem 0 0 0.58rem;
+}
+
+.qintro {
+    margin: .5rem 0 0 0.58rem;
+}
+
+.close2 {
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url(../images/close2.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.15rem;
+}
+
+.giftBox ul {
+    margin: 1.7rem 0 0 4.26rem;
+}
+
+.giftBox .item {
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.btn-lq {
+    width: 1.64rem;
+    height: 0.52rem;
+    background: url(../images/btn-lq0.png);
+    background-size: cover;
+}
+
+.lq1 {
+    background: url(../images/btn-lq1.png);
+    background-size: cover;
+}
+
+.close3 {
+    width: 0.54rem;
+    height: 0.54rem;
+    background: url(../images/close3.png);
+    background-size: cover;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.15rem;
+}
+
+.gamelogo {
+    width: 4.49rem;
+    height: 1.68rem;
+    background: url(../images/gamelogo.png);
+    background-size: cover;
+    margin: 0 auto;
+    opacity: 0;
+}
+
+.pageOne.in .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.pageBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.pageBoxBot {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.text {
+    background: url(../images/text.png);
+    background-size: cover;
+    width: 6.79rem;
+    height: 2.99rem;
+    position: fixed;
+    right: 0.3rem;
+    bottom: 10%;
+    z-index: 199;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    opacity: 0;
+}
+
+.intro.in .text {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+}
+
+.intro {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.slogan {
+    width: 6.47rem;
+    height: 2.85rem;
+    background: url(../images/slogan.png);
+    background-size: cover;
+    animation-delay: .4s;
+    -webkit-animation-delay: .4s;
+    opacity: 0;
+}
+
+.poster {
+    background: url(../images/poster.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    z-index: 99;
+}
+
+.skip {
+    background: url(../images/skip.png);
+    background-size: cover;
+    width: 1.44rem;
+    height: 1.44rem;
+    position: fixed;
+    right: 0.3rem;
+    top: 0.3rem;
+    z-index: 199;
+}
+
+.pl {
+    transform: translate(0, 100px);
+    -webkit-transform: translate(0, 100px);
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.lwdh {
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    opacity: 1;
+    position: relative;
+    z-index: 3;
+}
+
+.next {
+    background: url(../images/next.png);
+    background-size: cover;
+    width: 0.46rem;
+    height: 0.26rem;
+    position: fixed;
+    bottom: 0.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 39;
+    -webkit-animation: arrow 1.8s infinite;
+    animation: arrow 1.8s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        bottom: 0.6rem opacity: 1;
+    }
+    100% {
+        bottom: 0.15rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        bottom: 0.6rem opacity: 1;
+    }
+    100% {
+        bottom: 0.15rem;
+        opacity: 0;
+    }
+}
+
+.tit {
+    margin: 0 auto 0.5rem;
+}
+
+.t1 {
+    background: url(../images/t1.png);
+    background-size: cover;
+    width: 6.51rem;
+    height: 1.04rem;
+}
+
+.t2 {
+    background: url(../images/t2.png);
+    background-size: cover;
+    width: 6.51rem;
+    height: 1.38rem;
+}
+
+.t3 {
+    background: url(../images/t3.png);
+    background-size: cover;
+    width: 6.51rem;
+    height: 1.09rem;
+}
+
+.btn-zj {
+    background: url(../images/btn-jj.png);
+    background-size: cover;
+    width: 4.89rem;
+    height: 1.82rem;
+    margin: .6rem auto 0;
+    text-align: center;
+    line-height: 3rem;
+    color: #fff;
+}
+
+.btn-zj span {
+    /*font-size: 42px;*/
+    color: #f6e5a1;
+}
+
+.giftBox {
+    background: url(../images/gift.jpg);
+    background-size: cover;
+    width: 6.50rem;
+    height: 7.7rem;
+    overflow: hidden;
+}
+
+.jjBox {
+    background: url(../images/jj.png);
+    background-size: cover;
+    width: 5.02rem;
+    height: 8.53rem;
+    margin: 0 auto;
+}
+
+.btn-qd {
+    background: url(../images/btn-qd.png);
+    background-size: cover;
+    width: 4.89rem;
+    height: 1.22rem;
+    margin: 0.4rem auto;
+}
+
+.remark {
+    background: url(../images/remark.png);
+    background-size: cover;
+    width: 4.01rem;
+    height: 0.39rem;
+    margin: 0 auto;
+}
+
+.zhBox {
+    background: url(../images/hg.jpg);
+    background-size: cover;
+    width: 6.50rem;
+    height: 7.7rem;
+    margin-bottom: 0.4rem;
+}
+
+.ff {
+    background: url(../images/ff.png);
+    background-size: cover;
+    width: 6.56rem;
+    height: 1.86rem;
+}
+
+.ewm img {
+    width: 2.58rem;
+    height: 2.58rem;
+    margin: 0 auto;
+}
+
+.oldplayer {
+    background: url(../images/oldplayer.png);
+    background-size: cover;
+    width: 6.09rem;
+    height: 1.61rem;
+    margin: 0 auto 0.4rem;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.pageOne.in .fadeInUp {
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp
+}
+
+.shareBox {
+    background: -webkit-linear-gradient(top, #7192d3 0%, #dedff4 100%);
+    background: linear-gradient(to bottom, #7192d3 0%, #dedff4 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.shareBox .cloud,
+.shareBox #container {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cloud {
+    z-index: 39;
+}
+
+.cl {
+    background: url(../images/cl.png);
+    background-size: cover;
+    width: 5.78rem;
+    height: 13.14rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cr {
+    background: url(../images/cr.png);
+    background-size: cover;
+    width: 5.78rem;
+    height: 13.14rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bp {
+    background: url(../images/bp.png);
+    background-size: cover;
+    width: 5.64rem;
+    height: 1.70rem;
+    margin: 0 auto .1rem;
+    color: #fff;
+    text-indent: 1.8rem;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.bp .hy {
+    margin: 0.3rem 0 0.1rem 0;
+}
+
+.bp .avar {
+    width: 1.4rem;
+    height: 1.38rem;
+    position: absolute;
+    border-radius: 50%;
+    left: 1.1rem;
+    top: .16rem;
+}
+
+.touchend {
+    background: url(../images/light.jpg);
+    background-size: cover;
+}
+
+.cloud.in .cl {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+}
+
+.cloud.in .cr {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+}
+
+.lock0 {
+    width: 7.5rem;
+    height: 6.64rem;
+    background: url(../images/lock0.png);
+    background-size: cover;
+    user-select: none;
+}
+
+.lock1 {
+    width: 7.23rem;
+    height: 6.61rem;
+    background: url(../images/lock1.png);
+    background-size: cover;
+    margin: 0 auto;
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+}
+
+.btn-jijie {
+    width: 4.1rem;
+    height: 1.24rem;
+    background: url(../images/btn-zj.png);
+    background-size: cover;
+    margin: 0.3rem auto 0;
+    display: none;
+}
+
+.lockBox.go .lock1 {
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition: all .6s;
+    -webkit-transition: all .6s;
+}
+
+.lockBox.go .btn-jijie {
+    display: block;
+    /*margin-top: 0.6rem;*/
+}
+
+.lockBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.user {
+    margin: 0 auto;
+}
+
+.mc {
+    width: 4.7rem;
+    height: 0.98rem;
+    background: url(../images/mc.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -2.35rem;
+}
+
+@keyframes jackInTheBox {
+
+
+    0% {
+        transform: rotate(-10deg)
+    }
+
+    50% {
+        transform: rotate(3deg)
+    }
+    100% {
+        transform: rotate(-10deg)
+    }
+}
+
+@-webkit-keyframes jackInTheBox {
+
+
+    0% {
+        -webkit-transform: rotate(-10deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(3deg)
+    }
+    100% {
+        -webkit-transform: rotate(-10deg)
+    }
+}
+
+.jackInTheBox {
+    animation-name: jackInTheBox;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: jackInTheBox;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.dialog2.success {
+    background: url(../images/d1.jpg);
+    width: 6.52rem;
+    height: 4.40rem;
+    background-size: cover;
+    opacity: 0;
+    top: 70%!important;
+}
+
+.dialog2.success.din {
+    opacity: 1;
+    top: 50%!important;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+.lqcg {
+    background: url(../images/lqcg.png);
+    background-size: cover;
+    width: 0.68rem;
+    height: 0.68rem;
+    position: absolute;
+    right: 0.5rem;
+    top: -1.2rem;
+    display: none;
+}
+
+.lqcg.show {
+    display: block;
+}

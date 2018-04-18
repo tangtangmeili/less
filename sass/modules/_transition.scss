@@ -1,0 +1,23 @@
+@mixin transition($transition, $method:default) {
+    @if $method==default {
+        transition: $transition;
+        -webkit-transition: $transition;
+        -moz-transition: $transition;
+        -ms-transition: $transition;
+        -o-transition: $transition;
+    }
+    @else if $method==delay {
+        transition-delay: $transition;
+        -webkit-transition-delay: $transition;
+        -moz-transition-delay: $transition;
+        -ms-transition-delay: $transition;
+        -o-transition-delay: $transition;
+    }
+    @else if $method==duration {
+        transition-duration: $transition;
+        -moz-transition-duration: $transition;
+        -webkit-transition-duration: $transition;
+        -ms-transition-duration: $transition;
+        -o-transition-duration: $transition;
+    }
+}
